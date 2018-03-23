@@ -56,7 +56,7 @@ const getData = () =>
 
 const db = new Dexie('db')
 db.version(1).stores({
-	items: '[type+tier+level]'
+	items: 'name,[type+tier+level]'
 })
 window.db = db
 export default {
