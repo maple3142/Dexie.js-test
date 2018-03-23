@@ -1,0 +1,18 @@
+{
+	"name": "dexietest",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"dexie": "^2.0.2",
+		"vue-async-computed": "^3.3.1",
+		"vuejs-storage": "^2.2.2"
+	},
+	"devDependencies": {
+		"poi": "^9.6.13"
+	},
+	"scripts": {
+		"dev": "poi",
+		"build": "poi build"
+	}
+}
